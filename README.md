@@ -1,5 +1,7 @@
 # VIRADA
 
+<center>![Can you feel it coming?](philDrum.jpg "Logo Title")</center>
+
 ### HOW 
 
 - Download the zip file for your OS, uncompress, and run .app / .exe.
