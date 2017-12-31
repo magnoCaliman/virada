@@ -14,7 +14,7 @@ void setup()
   frameRate(1);
   noCursor();
   
-  textSize(80);
+  textSize(100);
   
   phil = new SoundFile(this, "phil_comp.mp3");
   bg = loadImage("preto.jpg");
@@ -29,7 +29,7 @@ void draw()
   int min = minute();
   int seg = second();
   
-  int xHora  = (width/2) - 200;
+  int xHora  = (width/2) - 220;
   //int xMin = 55;
   //int xSeg = 100;
   int offset = 150;
