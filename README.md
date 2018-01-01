@@ -6,7 +6,7 @@
 
 - Download the zip file for your OS, uncompress, and run .app / .exe.
 - A clock with your computer time will show in fullscreen.
-- 23:56:20 is the moment we have been waiting for all our lifes, oh Lord...
+- 23:56:16 is the moment we have been waiting for all our lifes, oh Lord...
 <br>
 - Click with the mouse button to test sound.
 

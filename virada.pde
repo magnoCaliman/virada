@@ -29,24 +29,33 @@ void draw()
   int min = minute();
   int seg = second();
   
+  String s_hora = nf(hora, 2);
+  String s_min  = nf(min, 2);
+  String s_seg  = nf(seg, 2);
+  
   int xHora  = (width/2) - 220;
   //int xMin = 55;
   //int xSeg = 100;
   int offset = 150;
   int yText  = (height/2) + 50;
   
-  text(hora + ":", xHora, yText);
-  text(min + ":", xHora + offset, yText); 
-  text(seg, xHora + (offset * 2), yText);
+  text(s_hora + ":", xHora, yText);
+  text(s_min + ":", xHora + offset, yText); 
+  text(s_seg, xHora + (offset * 2), yText);
   
-  if (hora == 23 && min == 56 && seg == 20) //23:56:20
+  if (hora == 23 && min == 56 && seg == 16) //23:56:16
   {
     phil.play();
     bg = loadImage("cara.jpg");
   }
+  
+  if (hora == 0 && min == 1 && seg == 40)
+  {
+    bg = loadImage("preto.jpg");
+  }
 }
 
-void mousePressed() //click the mouse to test
+void mousePressed() //click the mouse to test sound
 {
   phil.play();
   bg = loadImage("cara.jpg");
