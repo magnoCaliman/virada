@@ -1,6 +1,6 @@
 # VIRADA
 
-<center>![Can you feel it coming?](img/philDrum.jpg)</center>
+<center>![Can you feel it coming?](img/philDrum.png)</center>
 
 ### HOW 
 
