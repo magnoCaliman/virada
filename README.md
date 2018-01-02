@@ -1,6 +1,6 @@
 # VIRADA
 
-<!-- <center>![Can you feel it coming?](philDrum.jpg "Logo Title")</center> -->
+<center>![Can you feel it coming?](img/philDrum.jpg)</center>
 
 ### HOW 
 
